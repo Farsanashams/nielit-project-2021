@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Soliloquy Homepage </title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body style="background-image:url('homepage.jpg');" onpageshow="myFunction()">
+ 
+ <script>
+  function myFunction() {
+    alert("Welcome!");
+  }
+  </script>
+  
+
+
+<div style="float: right; padding-right: 150px; padding-top:50px; border:10px inset gainsboro; margin-top: 100px; background-image: url('solbackg.gif');" class="logo">
+  
+ <h2 style="font-stretch: expanded;color: rgb(197, 166, 44);font-size: 70px;font-family: 'Sacramento', cursive; padding-left: 70px;"> Welcome to </h2>
+  <h1 style="color: rgb(197, 166, 44);font-size: 100px;font-family: 'Sacramento', cursive;padding-left: 50px;"> Soliloquy Magazine </h1>
+ <a href="contentspage.html"> <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="logomag.jpg" alt="" width="100" height="100" > </a>
+ <h5 style="color: aliceblue;"> click here ! </h5>
+  <script>
+  function bigImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+  }
+  
+  function normalImg(x) {
+    x.style.height = "100px";
+    x.style.width = "100px";
+  }
+  </script>
+  </div>
+  
+  </div>
+  </body>
